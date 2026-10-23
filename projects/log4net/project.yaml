@@ -11,4 +11,8 @@ homepage: https://logging.apache.org/log4net/
 # Optional. true pauses reports without removing the enrolment; false (or omitting it) enables your project.
 disabled: false
 
-# The Dockerfile and threat_model.md are next to this file, so dockerfile: and threat_model: are omitted.
+# Required: the Dockerfile lives in the repository, so it changes there without a PR here.
+dockerfile: .oss-scanner/Dockerfile
+
+# Optional. This is also the default path, so the line could be omitted.
+threat_model: .oss-scanner/threat_model.md
