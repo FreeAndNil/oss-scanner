@@ -3,8 +3,8 @@
 This is a self-contained digest of the Apache Logging Services threat model, which governs log4net,
 Log4j and Log4cxx alike. The authoritative versions are online (the scanner cannot reach them):
 
-- https://logging.apache.org/security.html#threat-model
-- https://logging.apache.org/security/faq.html (frequently reported non-issues)
+- https://raw.githubusercontent.com/apache/logging-site/refs/heads/main/src/site/antora/modules/ROOT/pages/_threat-model-common.adoc
+- https://raw.githubusercontent.com/apache/logging-site/refs/heads/main/src/site/antora/modules/ROOT/pages/security/faq.adoc (frequently reported non-issues)
 - https://logging.apache.org/cyclonedx/vdr.xml (previously disclosed vulnerabilities)
 
 `AGENTS.md` at the repository root says the same for interactive research agents.
