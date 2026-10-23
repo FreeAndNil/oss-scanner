@@ -2,8 +2,8 @@
 repo: https://github.com/apache/logging-log4net#master
 
 # REQUIRED. Who should we email our reports to, and use as the primary contact for questions.
-# This is the Apache Logging Services security address, published at https://logging.apache.org/security.html
-primary_contact: security@logging.apache.org
+# The log4net lead maintainer and chair of the Apache Logging Services PMC.
+primary_contact: freeandnil@apache.org
 
 # Optional. The project's home page.
 homepage: https://logging.apache.org/log4net/
